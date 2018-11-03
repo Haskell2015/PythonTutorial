@@ -9,4 +9,4 @@ while active:
     if message != 'quit':
         print(message)
     else:
-        active = True
+        active = False
