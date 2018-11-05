@@ -1,5 +1,6 @@
 # 传递列表
 
+
 def greet_users(names):
     for name in names:
         print('Hello,' + name)
