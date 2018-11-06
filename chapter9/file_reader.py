@@ -19,7 +19,7 @@ with open('pi_digits.txt') as file_object:
 with open('../pi.txt') as file_obj:
     contents2 = file_obj.read()
     print(">>>" + contents2)
-    # 去除开头的空格
+    # 去除开头和结尾的空格
     print('>>>' + contents2.strip())
     
     print('1415' in contents2)
